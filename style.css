@@ -1,0 +1,85 @@
+body{
+		 background-color:green;
+		 color:white;
+		 font-family: "Times New Roman", Times, serif;
+		 font-size: 20px;
+		 
+
+  
+}
+th, tr, td {
+		    
+	        border-width: 5px;
+	        border-style:outset;
+	        background-color: navy;
+	        border-color: darkblue;
+		}
+		th:hover, tr:hover, td:hover {
+		 background-color:red;   
+		 border-color: darkred;
+		}
+h1, h2, h3, h4, h5, h6{
+ font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+ text-transform: capitalize;
+}
+a{ 
+ color:lightgray;   
+}  
+a.hidden{ 
+ color:white;   
+ text-decoration:none;
+} 
+p.i{
+ font-style: italic;   
+}    
+div{
+ background-color:darkgreen; 
+ width: 1000px;
+ margin: auto;
+ text-align:center;
+}    
+div.invis{
+ background-color:green;
+} 
+h1{
+color:white;   
+}
+ol{
+ list-style-position: inside;   
+}    
+
+nav {
+  position:sticky;
+  top: 0;
+  border-style:outset;
+  border-color:darkgreen;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+    }
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+}
+
+nav li{
+  float: left;
+ 
+}
+
+nav li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  color:green;
+  border-color:white;
+  text-decoration: underline;
+}
